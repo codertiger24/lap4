@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BaiActivity2"
+    android:orientation="vertical"
+    android:weightSum="2">
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         class="com.example.lap5pr.fragment.Fragment1"
+        android:layout_weight="1"
+        android:id="@+id/fr1"
+        />
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        class="com.example.lap5pr.fragment.Fragment2"
+        android:layout_weight="1"
+        android:id="@+id/fr2"
+        android:layout_marginTop="10dp"
+        />
+
+</LinearLayout>
